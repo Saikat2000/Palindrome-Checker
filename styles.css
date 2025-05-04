@@ -38,6 +38,13 @@
   border: 0px;
   border-bottom: 2px solid rgb(3, 3, 108);
   width: 200px;
+  font-size: 1.3rem;
+}
+#result{
+  display: none;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 30px;
 }
 #check-btn{
   font-size: 1.1rem;
