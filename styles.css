@@ -39,6 +39,7 @@
   border-bottom: 2px solid rgb(3, 3, 108);
   width: 200px;
   font-size: 1.3rem;
+  text-align: center;
 }
 #result{
   display: none;
