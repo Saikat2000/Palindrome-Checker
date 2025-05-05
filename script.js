@@ -4,7 +4,12 @@ const result = document.getElementById("result");
 checkBtn.addEventListener("click", function () {
     
     const textInput = document.getElementById("text-input").value;
-    isPalindrome(textInput);
+    if(textInput === ""){
+        alert("Please input a value");
+    } else {
+        isPalindrome(textInput);
+    }
+
 });
 function isPalindrome(str) {
     const cleanStr = str.replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
